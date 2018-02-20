@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.readableXML.js" type="text/javascript"></script>
+    <link href="css/jquery.readableXML.css" rel="stylesheet" type="text/css" />
+    <script src="js/APICoop.js" type="text/javascript"></script>
+    <script src="js/principal.js" type="text/javascript"></script>
+    <link href="css/Principal.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="Topo">
+        <img src="images/coop.png" />
+        <span>MONITORAMENTO DE INTEGRAÇÕES</span>
+        <img src="images/coop.png" />
+        <div style="clear: both">
+        </div>
+        <img class="LoadUltimaAtualizacao" style="display: none" src="images/barra.gif" />
+        <div class="UltimaAtualizacao">
+        </div>
+    </div>
+    <div class="Loader">
+        <img src="images/aguarde.gif" />
+        <img src="images/barra.gif" />
+        <img src="images/aguarde.gif" />
+    </div>
+    <div id="loopConteudo">
+    </div>
+    <div id="TemplateBase" style="display: none">
+        <div class="ConteudoIntegrador">
+            <div class="DescricaoIntegrador">
+                <img class="SuccessoIntegrador" src="images/sucess.png" />
+                <span class="DescricaoIntegradorTitulo"></span>
+                <img class="MaxminIntegracao" src="images/maximize.png" />
+            </div>
+            <div class="Integracao">
+                <div class="Painel">
+                    <div class="TopoPainel">
+                        <img class="ImgPainelTopo" src="images/sucesso.png" />
+                        <span class="TopoPainelTitulo"></span><span class="DataPainelTopo"></span>
+                        <div style="clear: both">
+                        </div>
+                    </div>
+                    <div class="Conteudo">
+                    </div>
+                    <div class="TopoPainel">
+                        <div class="Status">
+                            <img class="imgShowLogFila" src="images/plus.png" />
+                        </div>
+                        <div class="Qtd">
+                        </div>
+                        <div style="clear: both">
+                        </div>
+                    </div>
+                    <div class="ConteudoErro">
+                        <div class="Item">
+                            <div style="width: 10px; float: left">
+                                <img style="float: left" class="Reprocessar" src="images/refresh.png" />
+                                <img style="float: left" class="Deletar" src="images/deletar.png" />
+                                <img style="float: left; display:none" class="loaderbgwhite" src="images/loaderbgwhite.gif" />
+                            </div>
+                            <div class="ConteudoFilaPrincipal">
+                                <div class="TituloFila" style="width: 100%">
+                                    Origem</div>
+                                <div class="CFilaPrincipal" style="height: 160px;">
+                                </div>
+                            </div>
+                            <div class="ConteudoFila">
+                                <div class="TituloFila" style="width: 100%;">
+                                    Destino</div>
+                                <div class="CFila" style="height: 160px;">
+                                </div>
+                            </div>
+                            <div class="ConteudoRetorno">
+                                <div class="TituloFila" style="width: 100%">
+                                    Retorno</div>
+                                <div class="CRetorno" style="height: 160px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Etapa">
+                    ▼ próxima integração ▼
+                </div>
+                <div style="clear: both">
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

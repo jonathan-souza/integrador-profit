@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF43E0F3-CC14-4A23-BF7D-A7460125421C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Selia.Integrador.Test</RootNamespace>
+    <AssemblyName>Selia.Integrador.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="CategoriaUnit.cs" />
+    <Compile Include="MarcaUnit.cs" />
+    <Compile Include="PedidosStatusAcao1\PedidosStatusAcao1Unit.cs" />
+    <Compile Include="PedidosStatusBSellerAtualizar\PedidosStatusBSellerAtualizarUnit.cs" />
+    <Compile Include="PedidoStatusMillenium\AtualizarStatusUnit.cs" />
+    <Compile Include="Tracking\PedidoTrackingUnit.cs" />
+    <Compile Include="Preco\PrecoUnit.cs" />
+    <Compile Include="Estoque\EstoqueUnit.cs" />
+    <Compile Include="IntegradorUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IntegracoesRestUnit.cs" />
+    <Compile Include="RestUnit.cs" />
+    <Compile Include="ReflectionUnit.cs" />
+    <Compile Include="AutenticacaoRestUnit.cs" />
+    <Compile Include="PedidosStatusBSeller\PedidosStatusBSellerUnit.cs" />
+    <Compile Include="IntegracaoWebServices.cs" />
+    <Compile Include="Unix_TimeUnit.cs" />
+    <Compile Include="Pedido.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Adapter\Selia.Integrador.Adapter.csproj">
+      <Project>{9b3c5179-0252-4463-9bb7-9732c28b8e8e}</Project>
+      <Name>Selia.Integrador.Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BS\Selia.Integrador.BS.csproj">
+      <Project>{f66fa76a-75c3-42de-a25f-f60a56513e4a}</Project>
+      <Name>Selia.Integrador.BS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectionMonitor\Selia.Integrador.ConnectionMonitor.csproj">
+      <Project>{425ba05f-9334-4ed8-8679-3b8662db8654}</Project>
+      <Name>Selia.Integrador.ConnectionMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\Selia.Integrador.DAL.csproj">
+      <Project>{7c22dfbc-e72c-42c1-ac0d-a6d47b351500}</Project>
+      <Name>Selia.Integrador.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Selia.Integrador.MDias\Selia.Integrador.MDias.csproj">
+      <Project>{a2dd1dd7-eb44-486f-ac7e-5f8b07d182cd}</Project>
+      <Name>Selia.Integrador.MDias</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Selia.Integrador.Utils\Selia.Integrador.Utils.csproj">
+      <Project>{d7947d7c-7a4e-4b65-8ddd-9cfcbb376620}</Project>
+      <Name>Selia.Integrador.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Selia.Integrador.Model.csproj">
+      <Project>{f50eda5f-ffaa-4563-a8b0-65ab30e7e248}</Project>
+      <Name>Selia.Integrador.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PedidoStatusMillenium\AtualizarStatusUnit.orderedtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="OrderedTest1.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PedidosStatusBSellerAtualizar\PedidosStatusBSellerAtualizarUnit.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PedidosStatusBSeller\OrderedPedidosStatusBSellerUnit.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="xmlTester.xml" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

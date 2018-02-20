@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="atualizarstatusunit" storage="c:\integrador Selia\branchs\Seliaintegrador-multibancos-bseller\Selia.integrador.test\atualizarstatusunit.orderedtest" id="75c6b373-12ba-4b5f-867e-d19077fe9af9" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="50605919-c94e-6546-55d6-71bb277fead3" name="Listar_Status_Banco_Seliaamara" storage="bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="2a1b01e0-2b01-0d02-2ea3-851001c160a0" name="Enviar_Status_Millenium_Banco_Seliaamara" storage="bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d9c83cae-9e2b-3c2a-660d-f3b4cf25ec50" name="Incluir_Alterar_Pedido_Seliaamara" storage="bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

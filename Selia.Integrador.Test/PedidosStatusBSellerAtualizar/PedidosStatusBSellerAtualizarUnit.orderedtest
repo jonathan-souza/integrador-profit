@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="PedidosStatusBSellerAtualizarUnit" storage="c:\tfs\integrador Selia\branchs\Seliaintegrador-multibancos-bseller\Selia.integrador.test\pedidosstatusbselleratualizar\pedidosstatusbselleratualizarunit.orderedtest" id="4b0363ed-e970-431a-868a-9d8101ea8f09" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="b5e4d15e-33fb-0f10-8a01-503582ae9bdb" name="Consultar_status_banco_de_dados_integrador" storage="..\bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ce5a6ec2-9d3c-76d5-110f-3664aeeb808b" name="Visualizar_Pedido_BSeller_Por_IdPedido" storage="..\bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="cdb3a0f7-9b20-6f10-e083-644608732639" name="Dado_um_pedido_atualizar_banco_de_dados_do_integrador" storage="..\bin\debug\Selia.integrador.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

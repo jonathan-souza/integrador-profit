@@ -1,0 +1,81 @@
+﻿<Vtex>
+  <a:GiftListDTO xmlns:a="http://schemas.datacontract.org/2004/07/Vtex.Commerce.WebApps.AdminWcfService.Contracts">
+    <a:ClientAddressId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:ClientId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:DateCreated>2015-04-09T15:14:00</a:DateCreated>
+    <a:DateModified>2015-04-09T15:14:00</a:DateModified>
+    <a:EventCity />
+    <a:EventDate>2015-08-01T03:00:00</a:EventDate>
+    <a:EventLocation>, , ,</a:EventLocation>
+    <a:EventState />
+    <a:FileId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftCardId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftListId>107</a:GiftListId>
+    <a:GiftListMembers />
+    <a:GiftListTypeId>8</a:GiftListTypeId>
+    <a:Gifted i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:IsActive>true</a:IsActive>
+    <a:IsPublic>true</a:IsPublic>
+    <a:Message i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:Name>JESSICA DE OLIVEIRA</a:Name>
+    <a:ProfileSystemUserAddressName>Lista</a:ProfileSystemUserAddressName>
+    <a:ProfileSystemUserId>0b84af77-4191-43da-98da-31869f4bf40a</a:ProfileSystemUserId>
+    <a:UrlFolder>JESSICADEOLIVEIRA</a:UrlFolder>
+    <a:Version>2</a:Version>
+  </a:GiftListDTO>
+  <EmailPrincipal>t.pjessica.oliveira@gmail.com</EmailPrincipal>
+</Vtex>
+<Vtex>
+  <a:GiftListDTO xmlns:a="http://schemas.datacontract.org/2004/07/Vtex.Commerce.WebApps.AdminWcfService.Contracts">
+    <a:ClientAddressId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:ClientId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:DateCreated>2015-04-09T15:14:00</a:DateCreated>
+    <a:DateModified>2015-04-09T15:14:00</a:DateModified>
+    <a:EventCity />
+    <a:EventDate>2015-08-28T03:00:00</a:EventDate>
+    <a:EventLocation>, , ,</a:EventLocation>
+    <a:EventState />
+    <a:FileId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftCardId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftListId>119</a:GiftListId>
+    <a:GiftListMembers />
+    <a:GiftListTypeId>8</a:GiftListTypeId>
+    <a:Gifted i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:IsActive>true</a:IsActive>
+    <a:IsPublic>true</a:IsPublic>
+    <a:Message i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:Name>MARIANA LAYUT</a:Name>
+    <a:ProfileSystemUserAddressName>Lista</a:ProfileSystemUserAddressName>
+    <a:ProfileSystemUserId>e1543f00-d128-4c84-81cd-a4b0e887ba11</a:ProfileSystemUserId>
+    <a:UrlFolder>MARIANALAYUT</a:UrlFolder>
+    <a:Version>2</a:Version>
+  </a:GiftListDTO>
+  <EmailPrincipal>ma.layut@gmail.com</EmailPrincipal>
+</Vtex>
+<Vtex>
+  <a:GiftListDTO xmlns:a="http://schemas.datacontract.org/2004/07/Vtex.Commerce.WebApps.AdminWcfService.Contracts">
+    <a:ClientAddressId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:ClientId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:DateCreated>2015-04-09T15:14:00</a:DateCreated>
+    <a:DateModified>2015-04-09T17:55:00</a:DateModified>
+    <a:EventCity>MAIRIPORA</a:EventCity>
+    <a:EventDate>2015-05-02T03:00:00</a:EventDate>
+    <a:EventLocation>RUA ELVIRA, 60, JARDIM ESTHER</a:EventLocation>
+    <a:EventState>SP</a:EventState>
+    <a:FileId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftCardId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:GiftListId>123</a:GiftListId>
+    <a:GiftListMembers />
+    <a:GiftListTypeId>8</a:GiftListTypeId>
+    <a:Gifted i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:IsActive>true</a:IsActive>
+    <a:IsPublic>true</a:IsPublic>
+    <a:Message i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    <a:Name>TATIANA TELLIAN</a:Name>
+    <a:ProfileSystemUserAddressName>Lista</a:ProfileSystemUserAddressName>
+    <a:ProfileSystemUserId>fe21f58c-0808-465c-8059-94ea78751742</a:ProfileSystemUserId>
+    <a:UrlFolder>TATIANATELLIAN</a:UrlFolder>
+    <a:Version>2</a:Version>
+  </a:GiftListDTO>
+  <EmailPrincipal>tatianatellian@gmail.com</EmailPrincipal>
+</Vtex>

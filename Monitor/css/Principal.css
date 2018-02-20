@@ -1,0 +1,231 @@
+﻿html body
+{
+    margin: 20px;
+    font-family: Arial;
+    height: 100%;
+}
+.UltimaAtualizacao
+{
+    margin:0 auto; margin-top:-45px; float:inherit !important;    
+    font-size:14px; font-weight:bold;
+}
+.LoadUltimaAtualizacao
+{
+    margin:0 auto; margin-top:-45px; float:inherit !important
+}
+.Reprocessar
+{
+    cursor:pointer;
+}
+.Deletar
+{
+    cursor:pointer;
+}
+.Topo
+{
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+.Topo span
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #12203d;
+    margin-top: 30px;
+}
+.Topo img
+{
+    float: left;
+}
+.Etapa
+{
+    text-align: center;
+    background-color: #12203d;
+    color: White;
+    font-size: 12px;
+    width: 100%;
+    vertical-align: middle;
+}
+.Etapa img
+{
+    margin-top: 30px;
+    vertical-align: middle;
+}
+.Painel
+{
+    border: 1px solid #0c1526;
+    float: left;
+    width: 100%;
+}
+.Painel .Status
+{
+    width: 24px;
+    float: left;
+    margin-top: 7px;
+}
+
+.Qtd
+{
+    width: 500px;
+    text-align: left !important;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+.Painel .Conteudo
+{
+    width: 100%;
+    float: left;
+}
+.TopoPainel
+{
+    padding: 5px;
+    color: White;
+    font-weight: bold;
+    background-color: #2a3d62;
+    text-align: center;
+}
+.Conteudo
+{
+    background-color: White;
+    overflow: auto;
+}
+.Integracao
+{
+    border: 2px solid #12203d;
+    display: none;
+}
+.SuccessoIntegrador
+{
+    float: left;
+    margin-top: -30px;
+}
+.DescricaoIntegrador
+{
+    height: 21px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 100%;
+    color: White;
+    border-radius: 5px;
+    background-color: #12203d;
+    /*width: 700px;*/
+    padding: 5px;
+    text-align: center;
+}
+.ConteudoIntegrador
+{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.ConteudoErro
+{
+    background-color: #fffbfb;
+    display: none;
+    max-height: 400px;
+    overflow: auto;
+}
+.ConteudoErro .Item img
+{
+    float: left;
+    margin-bottom: 10px;
+}
+
+.ConteudoErro .Item
+{
+    border-top: 2px solid #0c1526;
+    float: left;
+    font-size: 12px;
+    width: 100%;
+    background-color: White;
+    height: 216px;
+}
+.ConteudoErro .Item div
+{
+    padding: 10px;
+}
+.MaxminIntegracao
+{
+    float: right !important;
+}
+.ImgPainelTopo
+{
+    float: left;
+}
+.DataPainelTopo
+{
+    float: right;
+    font-weight: bold;
+}
+.ConteudoFilaPrincipal
+{
+    width: 300px;
+    border-right: 1px dotted #12203d;
+    border-left: 1px dotted #12203d;
+    padding: 0px !important;
+    float: left;
+    overflow: auto;
+}
+.ConteudoFila
+{
+    width: 310px;
+    border-right: 1px dotted #12203d;
+    padding: 0px !important;
+    float: left;
+    overflow: auto;
+}
+.ConteudoRetorno
+{
+    padding: 0px !important;
+    width: 310px;
+    float: left;
+    overflow: auto;
+}
+.TituloFila
+{
+    background-color: #12203d;
+    color: White;
+    padding: 3px;
+    text-align: center;
+    margin: 0px 0xp 5px 0px !important;
+    padding: 2px !important;
+}
+.ConteudoItem
+{
+    border-bottom: 1px solid #12203d;
+    padding: 5px;
+    font-size: 12px;
+}
+.ConteudoItem span
+{
+    float: right;
+}
+.Status
+{
+    width: 30px;
+    float: left;
+}
+
+.Loader
+{
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.Loader img
+{
+    margin: 0 auto;
+}
+.Offline{
+    border-color:#12203d;
+    border-style:solid;
+    border-width:3px;
+    background-color: white!important;
+    color: #12203d!important;
+}
